@@ -1,0 +1,305 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+#logo {
+  width: 100%;
+  position: relative;
+  text-align: left;
+  padding: 0px;
+}
+
+#header {
+  background-color: rgb(0, 0, 0);
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+#logoimg {
+  width: 75px;
+  position: fixed;
+  top: 10px;
+  margin-top: 0px;
+  transform: translateX(-50%);
+  margin-left: 5%;
+}
+
+#quadrado {
+  color: rgb(0, 0, 0);
+  border: 2px rgb(84, 38, 38) solid;
+  padding: 10px 20px 10px 20px;
+  background-color: white;
+}
+
+#topicos {
+  float: right;
+  margin-right: 5%;
+  list-style: none;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.menu {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  float: left;
+  padding: 20 10 20 10;
+}
+
+#fundo {
+  background: url(otis/NaCadeira.jpeg);
+  height: 100%;
+  text-align: center;
+  background-size: cover;
+  background-position: right center;
+}
+
+#titulou {
+  color: rgb(255, 255, 255);
+  padding-top: 10%;
+  font-size: 100px;
+  line-height: 1;
+  -webkit-text-stroke: 2px rgb(84, 38, 38);
+  text-shadow: 6px 4px 4px rgb(84, 38, 38);
+}
+
+#subtitulou {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  -webkit-text-stroke: 2px rgb(84, 38, 38);
+  text-shadow: 5px 3px 3px rgb(84, 38, 38);
+}
+
+#final {
+  width: 100%;
+}
+
+#as {
+  width: 100%;
+}
+
+#estrela {
+  width: 100%;
+}
+
+#trajetoria {
+  width: 100%;
+}
+
+#habilidades {
+  width: 100%;
+}
+
+#jumpscare {
+  width: 100%;
+}
+
+#momentos {
+  width: 100%;
+}
+
+#amigos {
+  width: 100%;
+}
+
+#tadinho {
+  width: 100%;
+}
+
+#ele {
+  width: 100%;
+}
+
+#deitado {
+  width: 100%;
+}
+
+.cor {
+  background-image:linear-gradient(#6c5ce7, #a29bfe, #6c5ce7);
+}
+
+.cor2 {
+  background-image:linear-gradient(#e84393, #fd79a8, #e84393);
+}
+
+.coluna {
+  float: left;
+  padding: 2% 5%;
+  position: relative;
+}
+
+.coluna2 {
+  height: 80%;
+}
+
+.dois {
+  width: 40%;
+
+}
+
+.terceiro {
+  width: 33%;
+  padding: 0 2%;
+}
+
+.tres {
+  width: 29%;
+  padding: 0 2%;
+}
+
+.quatro {
+  width: 15%;
+}
+
+p {
+  font-size: 24px;
+}
+
+.texto {
+  font-size: 16px;
+}
+
+.foto {
+  width: 70%;
+}
+
+.foto27 {
+  width: 70%;
+  height: 50%;
+}
+
+.foto2 {
+  width: 85%;
+}
+
+.foto3 {
+  width: 50%;
+}
+
+.foto5 {
+  width: 30%;
+}
+
+.foto6 {
+  width: 95%;
+}
+
+.centro {
+  text-align: center;
+}
+
+.centro1 {
+  text-align: center;
+  text-shadow: 3px 3px 3px rgba(51, 43, 52, 0.505);
+}
+
+.preto {
+  background-color: black;
+}
+
+#vermelho {
+  color: rgb(255, 0, 0);
+  padding-top: 1%;
+  font-size: 100px;
+  line-height: 3;
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
+}
+
+#caixa {
+  width: 60%;
+  height: 50%;
+  border: 3px solid t;
+  text-align: center;
+  line-height: 89.5px;
+  text-transform: uppercase;
+  font-size: 60px;
+  letter-spacing: 60px;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  float: left;
+}
+
+
+@media all and (max-width: 1000px) {
+  .menu {
+    visibility: hidden;
+  }
+
+  #vermelho {
+    font-size: 90px;
+  }
+
+  .coluna,
+  .dois,
+  .tres,
+  .terceiro,
+  .quatro {
+    display: block;
+    width: 80%;
+    padding: 0;
+    margin: 10px auto;
+    float: none;
+  }
+
+  #logo {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 0px;
+  }
+
+  #logoimg {
+    margin-left: 0px;
+    transform: translateX(-50%);
+  }
+
+  .foto6 {
+    width: 40%;
+    padding-top: 3%;
+  }
+
+  .centro1 {
+    font-size: 25px;
+  }
+
+  .footer {
+    height: 10%;
+
+  }
+
+}
+
+.footer {
+  background-color: rgb(183, 118, 245);
+  width: 100%;
+}
+
+.textinho2 {
+  color: white;
+  font-size: 20px;
+  text-indent: 8%;
+}
+
+.textinho {
+  color: white;
+  font-size: 20px;
+  text-indent: 8%;
+}
+
+.coluna11 {
+  float: left;
+  padding: 0% 10;
+  position: relative;
+}
